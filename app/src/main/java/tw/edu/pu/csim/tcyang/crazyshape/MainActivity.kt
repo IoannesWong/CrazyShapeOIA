@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(baseContext, "作者：黃勤義", Toast.LENGTH_LONG).show()
         GlideApp.with(this)
             .load(R.drawable.cover)
+            .override(800, 600)
             .into(imgTitle)
 
 
